@@ -1,4 +1,4 @@
-require "iron_curtain/engine"
+require "iron_curtain/engine" if defined?(::Rails)
 
 module IronCurtain
 end
