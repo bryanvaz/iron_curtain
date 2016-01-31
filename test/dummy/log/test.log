@@ -2,4 +2,4 @@
 ---------------------------
 IronCurtainTest: test_truth
 ---------------------------
-  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[35m (0.1ms)[0m  rollback transaction
