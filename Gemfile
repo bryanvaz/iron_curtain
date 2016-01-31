@@ -10,10 +10,6 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-group :test do 
-	gem "rspec-rails"
-	gem "factory_girl_rails"
-	gem 'codeclimate-test-reporter', require: false
-  	gem 'rspec-html-matchers'
-end
+# To use a debugger
+# gem 'byebug', group: [:development, :test]
 
