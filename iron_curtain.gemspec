@@ -10,14 +10,20 @@ Gem::Specification.new do |s|
   s.authors     = ["Bryan Vaz"]
   s.email       = [" bryanvaz@users.noreply.github.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of IronCurtain."
-  s.description = "TODO: Description of IronCurtain."
+  s.summary     = "A lightweight wrapper for an Auth0 Rails implementation"
+  s.description = "I don't want to deal with user authentication, and I think you do too!"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "rails", ">= 4.2", "< 5.0"
+  s.required_ruby_version = '>= 2.2'
 
-  s.add_development_dependency "sqlite3"
+  s.add_dependency 'omniauth', '>= 1.2'
+  s.add_dependency 'omniauth-auth0', '>= 1.1'
+
+  s.add_development_dependency 'sqlite3'
+
+
 end
