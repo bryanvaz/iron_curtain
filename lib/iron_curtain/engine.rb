@@ -1,5 +1,4 @@
 module IronCurtain
-  class Engine < ::Rails::Engine
-    isolate_namespace IronCurtain
-  end
+	  class Engine < ::Rails::Engine
+	  end
 end
